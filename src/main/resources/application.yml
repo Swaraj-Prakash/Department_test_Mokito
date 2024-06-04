@@ -1,0 +1,49 @@
+server:
+  port: 9090
+     
+
+
+spring:
+#  profiles: 
+#     active: dev
+  datasource:
+    driver-class-name: com.mysql.jdbc.Driver
+    username: root
+    url: jdbc:mysql://localhost:3306/dcbapp
+    password: Swaraj@123
+  jpa:
+    hibernate:
+      ddl-auto: update
+    show-sql: 'true'
+welcome:
+  message: Welcome to springBoot, Some configuration Data
+
+#spring:
+#  profiles: qa
+#  datasource:
+#    driver-class-name: com.mysql.jdbc.Driver
+#    username: root
+#    url: jdbc:mysql://localhost:3306/dcbapp-qa
+#    password: Swaraj@123
+#  jpa:
+#    hibernate:
+#      ddl-auto: update
+#    show-sql: 'true'
+#welcome:
+#  message: Welcome to springBoot, Some configuration Data
+
+#spring:
+#  profiles: prod
+#  datasource:
+#    driver-class-name: com.mysql.jdbc.Driver
+#    username: root
+#    url: jdbc:mysql://localhost:3306/dcbapp-prod
+#    password: Swaraj@123
+#  jpa:
+#    hibernate:
+#      ddl-auto: update
+#    show-sql: 'true'
+#welcome:
+#  message: Welcome to springBoot, Some configuration Data
+#
+
